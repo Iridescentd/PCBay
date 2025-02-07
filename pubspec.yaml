@@ -1,0 +1,116 @@
+name: pcbay
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.0.0
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # cupertino_icons: ^1.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/PCBay_white.png
+    - assets/images/PCBay_black.png
+    - assets/images/Resized_black.png
+    - assets/images/Resized_white.png
+    - assets/images/gaming-computer-6903836_1920.jpg
+    - assets/images/fractal_design_fractal_design_north_tg_atx_gaming_case_full01_p9owj8l3.webp
+    - assets/images/pc-tower.png 
+    - assets/images/1_8_56311dc8-c4e2-4faf-945d-f8ba53b16f18.webp
+    - assets/images/12gb-rtx-3080-review-07.webp
+    - assets/images/748819-oppen_0.jpg
+    - assets/images/66300978_2250502658404269_461570832401956864_n.jpg
+    - assets/images/computer-6816638_1920.jpg
+    - assets/images/g-skill_--g-skill-tridentz-rgb-16gb--2-x-8gb--ddr4-3600mhz--f4-3600c19d-16gtzrb-_full02.webp
+    - assets/images/images.jfif
+    - assets/images/images.jpeg
+    - assets/images/ktc-product-ssd-snv2s-1000g-1-sm.jpg
+    - assets/images/o201808201633495922.png
+    - assets/images/pro-x-superlight-2-dex-pink-gallery-1.png
+    - assets/images/sennheiser_sennheiser-hd-4-40-bt---hd-4-40bt-bluetooth-wireless-headphones_full03.webp
+    - assets/images/VGCcWL5iYNoceZNq5PBwfk-650-80.jpg.webp
+    - assets/images/z1page1.webp
+    - assets/images/8de145c8-6c34-406e-b009-51346be8d822.jpg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
